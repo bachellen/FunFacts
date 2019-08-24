@@ -1,0 +1,2 @@
+include ':app', ':gradle-mvn-push.gradle'
+project(':gradle-mvn-push.gradle').projectDir = new File('subproject/library/gradle-mvn-push.gradle')
